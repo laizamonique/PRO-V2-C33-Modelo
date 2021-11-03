@@ -55,7 +55,7 @@ function setup() {
   bubble.addImage(bubble_img);
   bubble.scale = 0.1;
   
-  //bunny sprite
+  //sprite do coelhinho
   blink.frameDelay = 20;
   eat.frameDelay = 20;
   bunny = createSprite(270,100,100,100);
@@ -73,7 +73,7 @@ function setup() {
   con = new Link(rope,fruit);
   con2 = new Link(rope2,fruit);
 
-  //btn 1
+  //botão 1
   button = createImg('cut_btn.png');
   button.position(200,320);
   button.size(50,50);
