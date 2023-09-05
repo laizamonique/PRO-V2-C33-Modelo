@@ -86,7 +86,7 @@ function setup() {
   
   //button2.mousePress(drop);
   
-  //button2.mouseClick(drop);
+  button2.mouseClick(drop);
 
   //button2.mouseClicked(drop);
 
@@ -123,7 +123,7 @@ function draw()
 
     //bunny.changeAnimation();
 
-    //bunny.Animation('eating');
+    bunny.Animation('eating');
   }
   
   if(collide(fruit,bubble,40) == true)
